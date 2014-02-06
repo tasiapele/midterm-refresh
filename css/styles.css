@@ -2,6 +2,11 @@ body {
 	background: url("../img/bg.png");
 }
 
-.container {
-	background: blue;
+p {
+	font-family: 'Open Sans', sans-serif;
+}
+
+/* Helper Classes */
+.showgrid {
+	background: url("../img/grid-bg.png");
 }
