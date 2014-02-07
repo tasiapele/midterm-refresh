@@ -5,16 +5,40 @@ body {
 
 /*Base Nav Styling*/
 
-li{
-	background: red;
+nav li{
+	
 	float: left;
 	list-style: none;
 	margin:0 20px;
 }
 
-nav a{
+
+
+/* Link states*/
+
+nav a:link,
+nav a:visited{
 	background: green;
+	color: white;
 	padding: 20px 20px 20px 60px;
+	text-decoration: none;
+}
+
+nav a:hover,
+nav a:active{
+	background: yellow;
+}
+
+/*Hover states*/
+#first a:hover{
+	background: url("../img/flask.png") no-repeat left bottom;
+
+}
+
+/* advanced selection*/
+
+aside h3 + img{
+	border: 4px solid black;
 }
 
 /* Helper Classes */
